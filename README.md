@@ -1,15 +1,29 @@
-# Advanced BMI Calculator
+# Voice Assistant with GUI (Python Project)
 
-This is a Python-based GUI application to calculate and track Body Mass Index (BMI). It offers a graphical user interface (GUI) using Tkinter and visual trend analysis with matplotlib.
+This is a Python-based Voice Assistant with a graphical user interface (GUI) using `tkinter`. The assistant can perform the following tasks:
 
----
+- Speak to the user using text-to-speech
+- Listen to voice commands using the microphone
+- Search the web
+- Tell the time and date
+- Send emails
+- Provide weather updates
+- Tell jokes
+- Play songs on YouTube
+- Set reminders
 
-## 💡 Features
+## 📌 Features
 
-- GUI for BMI calculation
-- Color-coded BMI categories
-- Data saved to `bmi_data.csv`
-- Trend graph for all user BMIs
-- Input validation with user-friendly messages
+- Simple GUI using `tkinter`
+- Voice recognition with `speech_recognition`
+- Weather info using OpenWeatherMap API
+- Email sending functionality
+- YouTube song playback
+- Joke-telling
+- Reminder alert
 
----
+## 🛠️ Requirements
+
+Install dependencies using:
+```bash
+pip install -r requirements.txt
