@@ -1,0 +1,7 @@
+tk
+pyttsx3
+SpeechRecognition
+pyaudio
+requests
+pywhatkit
+pyjokes
